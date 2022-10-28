@@ -1,5 +1,4 @@
 ## Containerising your first app
-Move to the root of `Chapter-1` before running the commands.
 
 - building container image
 ```bash

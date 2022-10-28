@@ -1,6 +1,6 @@
 FROM node
 
-WORKDIR usr/src/app
+WORKDIR /home/mannadamay12/docker/docker-demo
 
 COPY . .
 
