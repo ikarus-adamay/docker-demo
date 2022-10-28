@@ -29,3 +29,14 @@ docker stop <container_ir or container_name>
 - digging through the image
 ```bash
 docker 
+```
+
+- commom commands
+
+``` bash
+$ docker pull ubuntu:18.04 (18.04 is tag/version (explained below))
+$ docker images (Lists Docker Images)
+$ docker run image (creates a container out of an image)
+$ docker rmi image (deletes a Docker Image if no container is using it)
+$ docker rmi $(docker images -q) (deletes all Docker images)
+```
