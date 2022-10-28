@@ -38,12 +38,12 @@ docker
 - common commands for tutorial
 
 ``` bash
-$ docker images
-$ docker pull ubuntu:18.04 (18.04 is tag/version)
 $ docker images (Lists Docker Images)
+$ docker pull ubuntu:18.04 (18.04 is tag/version)
 $ docker run -it ubuntu:18.04
 $ docker run image (creates a container out of an image)
 $ docker rmi image (deletes a Docker Image if no container is using it)
 $ docker rmi $(docker images -q) (deletes all Docker images)
-docker inspect ubuntu:18.04
+$ docker inspect ubuntu:18.04
+$ docker exec -it <container id> bash
 ```
